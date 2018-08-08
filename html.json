@@ -1,0 +1,101 @@
+{
+	
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	// Common
+	"div": {
+		"prefix": "div",
+		"body": "<div>$0</div>",
+		"description": "Yurii"
+	},
+  "class": {
+    "prefix": "class",
+    "body": "class=\"$0\"",
+    "description": "Yurii"
+  },
+  "style": {
+    "prefix": "style",
+    "body": "style=\"$0\"",
+    "description": "Yurii"
+  },
+
+
+	// Angular
+  "ngIf": {
+    "prefix": "ngif",
+    "body": "*ngIf=\"${1:expression}\"",
+    "description": "Yurii"
+  },
+  "ngIfElse": {
+    "prefix": "ngifelse",
+    "body": "*ngIf=\"${1:expression};else ${2:templateName}\"",
+    "description": "Yurii"
+  },
+  "ngFor": {
+    "prefix": "ngfor",
+    "body": "*ngFor=\"let ${1:item} of ${2:list}\"${0}",
+    "description": "Yurii"
+  },
+  "ngClass": {
+    "prefix": "ngclass",
+    "body": "[ngClass]=\"{'${1:cssClass}': ${2:expression}}\"",
+    "description": "Yurii"
+  },
+  "ngStyle": {
+    "prefix": "ngstyle",
+    "body": "[ngStyle]=\"{'${1:style}': ${2:expression}}\"",
+    "description": "Yurii"
+  },
+  "ngSwitch": {
+    "prefix": "ngswitch",
+    "body": "[ngSwitch]=\"${1:conditionExpression}\"",
+    "description": "Yurii"
+  },
+  "ngSwitchCase": {
+    "prefix": "ngswitchcase",
+    "body": "*ngSwitchCase=\"${1:expression}\"",
+    "description": "Yurii"
+  },
+  "ngSwitchDefault": {
+    "prefix": "ngswitchdefault",
+    "body": "*ngSwitchDefault=\"${1:expression}\"",
+    "description": "Yurii"
+  },
+  "ngModel": {
+    "prefix": "ngmodel",
+    "body": "[(ngModel)]=\"${1:binding}\"",
+    "description": "Yurii"
+  },
+  "ngRouterLink": {
+    "prefix": "routerlink",
+    "body": "[routerLink]=\"['/${1:routePath}']\" routerLinkActive=\"${2:active}\" $0",
+    "description": "Yurii"
+  },
+  "ngFormControlName": {
+    "prefix": "formcontrolname",
+    "body": "formControlName=\"${1:control}\"",
+    "description": "Yurii"
+  },
+  "ngFormGroup": {
+    "prefix": "formgroup",
+    "body": "[formGroup]=\"${1:form}\"",
+    "description": "Yurii"
+  },
+  "ngFormGroupName": {
+    "prefix": "formgroupname",
+    "body": "[formGroupName]=\"${1:name}\"",
+    "description": "Yurii"
+  },
+}
